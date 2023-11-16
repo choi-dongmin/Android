@@ -19,16 +19,12 @@ String strAdd = "111.111.111.111"
 int nport = 8000
 
 private val aus = AutoUpdateService();
-.
-.
-.
+
 override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
     setContentView(R.layout.activity_main)
 
     aus.DoUpdate(this, strAdd, nPort)
 }
-.
-.
 
 ```
